@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website Layout</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            background-color: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .nav {
+            background-color: #ddd;
+            padding: 90px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .row {
+            display: flex;
+        }
+
+        .column {
+            flex: 33.33%;
+            padding: 20px;
+        }
+
+        .main {
+            flex: 66.66%;
+            padding: 100px;
+            text-align: center;
+            background-color: aqua;
+        }
+
+        .footer {
+            background-color: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <h1>Header</h1>
+    </header>
+
+    <nav class="nav">
+        <p>Navigation Menu</p>
+    </nav>
+
+    <div class="row">
+        <div class="column">
+            <h2>Content</h2>
+        </div>
+        <div class="main">
+            <h2>Main Content</h2>
+        </div>
+        <div class="column">
+            <h2><em>naruto</em>Content</h2>
+        </div>
+    </div>
+
+    <div class="footer">
+        
+        <marquee behavior="" direction="">Sasuke</marquee>
+    </div>
+
+</body>
+</html>
